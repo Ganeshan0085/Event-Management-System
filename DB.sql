@@ -1,0 +1,9 @@
+CREATE DATABASE eventdb;
+USE eventdb;
+
+CREATE TABLE events (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100),
+  date VARCHAR(50),
+  venue VARCHAR(100)
+);
